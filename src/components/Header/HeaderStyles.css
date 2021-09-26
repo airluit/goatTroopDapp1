@@ -1,0 +1,22 @@
+.header-wrapper {
+    height: 50px;
+    background-color: brown;
+}
+
+.menu-option {
+    color: white;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    margin: 0 50px;
+}
+.menu-option:hover {
+    color: green;
+    transform: scale(1.1);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}

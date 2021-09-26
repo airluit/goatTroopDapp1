@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/testDApp/static/css/main.b33a83a6.chunk.css",
+    "main.js": "/testDApp/static/js/main.23e18f8c.chunk.js",
+    "main.js.map": "/testDApp/static/js/main.23e18f8c.chunk.js.map",
+    "runtime-main.js": "/testDApp/static/js/runtime-main.731cf9c5.js",
+    "runtime-main.js.map": "/testDApp/static/js/runtime-main.731cf9c5.js.map",
+    "static/js/2.1bf18981.chunk.js": "/testDApp/static/js/2.1bf18981.chunk.js",
+    "static/js/2.1bf18981.chunk.js.map": "/testDApp/static/js/2.1bf18981.chunk.js.map",
+    "static/js/3.a64233a7.chunk.js": "/testDApp/static/js/3.a64233a7.chunk.js",
+    "static/js/3.a64233a7.chunk.js.map": "/testDApp/static/js/3.a64233a7.chunk.js.map",
+    "index.html": "/testDApp/index.html",
+    "static/css/main.b33a83a6.chunk.css.map": "/testDApp/static/css/main.b33a83a6.chunk.css.map",
+    "static/js/2.1bf18981.chunk.js.LICENSE.txt": "/testDApp/static/js/2.1bf18981.chunk.js.LICENSE.txt",
+    "static/media/1.75f03515.png": "/testDApp/static/media/1.75f03515.png",
+    "static/media/reset.css": "/testDApp/static/media/PressStart2P-Regular.f2341734.woff",
+    "static/media/goatTeaser.ed6cfc95.png": "/testDApp/static/media/goatTeaser.ed6cfc95.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.731cf9c5.js",
+    "static/js/2.1bf18981.chunk.js",
+    "static/css/main.b33a83a6.chunk.css",
+    "static/js/main.23e18f8c.chunk.js"
+  ]
+}
