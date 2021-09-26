@@ -18,9 +18,9 @@ ReactDOM.render(
     <Header />
     <Router>
       <Switch>
-        <Route exact path="/" component={App} />
-        <Route exact path="troops1/about" component={AboutPage} />
-        <Route exact path="troops1/roadmap" component={RoadMap} />
+        <Route exact path="/troops1/" component={App} />
+        <Route exact path="/troops1/about" component={AboutPage} />
+        <Route exact path="/troops1/roadmap" component={RoadMap} />
       </Switch>
     </Router>
   </Provider>,

@@ -130,13 +130,13 @@ function App() {
           >
             <nav>
               <div>
-                <a href="about"> About </a>
+                <a href="troops1/about"> About </a>
               </div>
               <div>
-                <a href="roadmap"> Roadmap </a>
+                <a href="troops1/roadmap"> Roadmap </a>
               </div>
               <div>
-                <a href="about"> About </a>
+                <a href="troops1/about"> About </a>
               </div>
             </nav>
           </s.TextTitle>
