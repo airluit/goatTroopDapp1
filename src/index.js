@@ -20,6 +20,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/troops1/" component={App} />
         <Route exact path="/troops1/about/" component={AboutPage} />
+        <Route exact path="/about" component={AboutPage} />
         <Route exact path="/troops1/roadmap/" component={RoadMap} />
       </Switch>
     </Router>
