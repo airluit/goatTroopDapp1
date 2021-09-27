@@ -11,13 +11,8 @@ import {
 
 function Home() {
   let params = new URLSearchParams( useLocation().search);
-
-
-  console.log(params)
   let route = params ? params.get('page') : null;
   
-  
-
   let Page = App;
   switch (route) {
     case 'about':
