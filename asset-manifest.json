@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/dappTroop1/static/css/main.4c8e9449.chunk.css",
-    "main.js": "/dappTroop1/static/js/main.049ff233.chunk.js",
-    "main.js.map": "/dappTroop1/static/js/main.049ff233.chunk.js.map",
+    "main.js": "/dappTroop1/static/js/main.ef5d1ece.chunk.js",
+    "main.js.map": "/dappTroop1/static/js/main.ef5d1ece.chunk.js.map",
     "runtime-main.js": "/dappTroop1/static/js/runtime-main.4f242765.js",
     "runtime-main.js.map": "/dappTroop1/static/js/runtime-main.4f242765.js.map",
-    "static/js/2.e33fe883.chunk.js": "/dappTroop1/static/js/2.e33fe883.chunk.js",
-    "static/js/2.e33fe883.chunk.js.map": "/dappTroop1/static/js/2.e33fe883.chunk.js.map",
+    "static/js/2.9fef0ac5.chunk.js": "/dappTroop1/static/js/2.9fef0ac5.chunk.js",
+    "static/js/2.9fef0ac5.chunk.js.map": "/dappTroop1/static/js/2.9fef0ac5.chunk.js.map",
     "static/js/3.bf18d932.chunk.js": "/dappTroop1/static/js/3.bf18d932.chunk.js",
     "static/js/3.bf18d932.chunk.js.map": "/dappTroop1/static/js/3.bf18d932.chunk.js.map",
     "index.html": "/dappTroop1/index.html",
     "static/css/main.4c8e9449.chunk.css.map": "/dappTroop1/static/css/main.4c8e9449.chunk.css.map",
-    "static/js/2.e33fe883.chunk.js.LICENSE.txt": "/dappTroop1/static/js/2.e33fe883.chunk.js.LICENSE.txt",
+    "static/js/2.9fef0ac5.chunk.js.LICENSE.txt": "/dappTroop1/static/js/2.9fef0ac5.chunk.js.LICENSE.txt",
     "static/media/1.75f03515.png": "/dappTroop1/static/media/1.75f03515.png",
     "static/media/reset.css": "/dappTroop1/static/media/PressStart2P-Regular.f2341734.woff",
     "static/media/goatTeaser.ed6cfc95.png": "/dappTroop1/static/media/goatTeaser.ed6cfc95.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4f242765.js",
-    "static/js/2.e33fe883.chunk.js",
+    "static/js/2.9fef0ac5.chunk.js",
     "static/css/main.4c8e9449.chunk.css",
-    "static/js/main.049ff233.chunk.js"
+    "static/js/main.ef5d1ece.chunk.js"
   ]
 }
