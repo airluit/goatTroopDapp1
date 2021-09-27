@@ -12,8 +12,12 @@ function Header() {
     <div className="header-wrapper">
       <nav className="nav-container">
           <Link className="menu-option" to="/goatTroopDapp1">Home</Link>
-          <Link className="menu-option" to="/goatTroopDapp1?page=about">About</Link>
+          <Link className="menu-option" to="/goatTroopDapp1?page=buy">Buy a Goat</Link>
           <Link className="menu-option" to="/goatTroopDapp1?page=map">Roadmap</Link>
+          <Link className="menu-option" to="/goatTroopDapp1?page=team">Team</Link>
+          <Link className="menu-option" to="/goatTroopDapp1?page=phase2">Phase II</Link>
+          <Link className="menu-option" to="/goatTroopDapp1?page=gallery">Gallery</Link>
+          <Link className="menu-option" to="/goatTroopDapp1?page=terms">{'Terms & Conditions'}</Link>
       </nav>
     </div>
   )
