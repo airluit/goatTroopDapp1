@@ -25,9 +25,9 @@
     "web3": "^1.5.1",
     "web3-eth-contract": "^1.5.2"
   },
-  "homepage": "https://airluit.github.io/dappTroop1",
-  "about": "https://airluit.github.io/dappTroop1/about",
-  "road": "https://airluit.github.io/dappTroop1/road",
+  "homepage": "https://airluit.github.io/goatTroopDapp1/",
+  "about": "https://airluit.github.io/goatTroopDapp1/about",
+  "road": "https://airluit.github.io/goatTroopDapp1/road",
   
   "scripts": {
     "start": "react-scripts start",
