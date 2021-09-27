@@ -6,7 +6,12 @@ import * as s from './styles/globalStyles'
 import styled from 'styled-components'
 import i1 from './assets/images/1.png'
 import goat from './assets/images/goatTeaser.png'
-import { BrowserRouter as Link, Router } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Link,
+  useLocation
+} from "react-router-dom";
+import './AppStyles.css'
 
 export const Roadmap = styled.img`
   width: 80%;
@@ -128,17 +133,21 @@ function App() {
               margin: 40,
             }}
           >
-            <nav>
-              <div>
-                <a href="troops1/about/"> About </a>
-              </div>
-              <div>
-                <a href="troops1/roadmap/"> Roadmap </a>
-              </div>
-              <div>
-                <a href="troops1/about/"> About 2 </a>
-              </div>
-            </nav>
+            <div>
+              <Link className="menu-option" to="/goatTroopDapp1">
+                Home
+              </Link>
+            </div>
+            <div>
+              <Link className="menu-option" to="/goatTroopDapp1?page=about">
+                About
+              </Link>
+            </div>
+            <div>
+              <Link className="menu-option" to="/goatTroopDapp1?page=map">
+                Roadmap
+              </Link>
+            </div>
           </s.TextTitle>
         </s.Container>
         <ResponsiveWrapper flex={1} style={{ padding: 12 }}>
