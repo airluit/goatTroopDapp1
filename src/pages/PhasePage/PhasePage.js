@@ -4,7 +4,8 @@ import './PhasePageStyles.css'
 function PhasePage() {
   return (
     <div className="">
-      coming soon...
+      <div className="header-text">Phase II</div>
+      <div>coming soon...</div>
     </div>
   )
 }

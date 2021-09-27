@@ -6,11 +6,7 @@ import * as s from './styles/globalStyles'
 import styled from 'styled-components'
 import i1 from './assets/images/1.png'
 import goat from './assets/images/goatTeaser.png'
-import {
-  BrowserRouter as Router,
-  Link,
-  useLocation
-} from "react-router-dom";
+import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom'
 import './AppStyles.css'
 
 export const Roadmap = styled.img`
@@ -114,13 +110,11 @@ function App() {
   }, [blockchain.account])
   //changine of the website happens here!!!!!!
   return (
-    <s.Screen style={{ backgroundColor: 'var(--army-green)' }}>
-      <s.Container flex={1} ai={'center'} style={{ padding: 12 }}>
-        <s.TextTitle
-          style={{ textAlign: 'center', fontSize: 36, fontWeight: 'bold' }}
-        >
-          The Troop NFT Test
-        </s.TextTitle>
+    <s.Screen style={{ backgroundColor: 'black' }}>
+      <s.Container flex={1} ai={'center'}>
+        <div className='header-text'>
+          Welcome to Goat Troops…
+        </div>
         <s.SpacerMedium />
         <StyledImg alt={'example'} src={goat} />
         <s.Container jc={'center'} ai={'center'}>

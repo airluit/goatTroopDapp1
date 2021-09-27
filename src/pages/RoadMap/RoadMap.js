@@ -1,17 +1,12 @@
-import React, { useEffect } from "react";
-import "./RoadMapStyles.css";
+import React, { useEffect } from 'react'
+import './RoadMapStyles.css'
 
 function AboutPage() {
-  
-
-
-
-
   return (
     <div className="roadmap-page">
-        Road Map
+      <div className="header-text">Road Map</div>
     </div>
-  );
+  )
 }
 
-export default AboutPage;
+export default AboutPage

@@ -7,6 +7,8 @@ import BuyPage from './pages/BuyPage/BuyPage'
 import PhasePage from './pages/PhasePage/PhasePage'
 import TermsPage from './pages/TermsPage/TermsPage'
 import GalleryPage from './pages/GalleryPage/GalleryPage'
+import DonationsPage from './pages/DonationsPage/DonationsPage'
+import './HomeStyles.css';
 
 import {
   BrowserRouter as Router,
@@ -42,9 +44,14 @@ function Home() {
     case 'gallery':
       Page = GalleryPage;
       break;
+    case 'donations':
+      Page = DonationsPage;
+      break;
   }
   return (
+    <div className="home-page">
       <Page />
+    </div>
   )
 }
 

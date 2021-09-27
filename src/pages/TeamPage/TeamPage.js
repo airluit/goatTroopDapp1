@@ -4,6 +4,7 @@ import './TeamPageStyles.css'
 function TeamPage() {
   return (
     <div className="">
+      <div className="header-text">Team</div>
       <div>VinnyGorgeous</div>
       <div>MichelobUltras</div>
       <div>Air Luit</div>
