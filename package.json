@@ -25,8 +25,8 @@
     "web3": "^1.5.1",
     "web3-eth-contract": "^1.5.2"
   },
-  "homepage": "https://airluit.github.io/troops1/",
-  "About": "https://airluit.github.io/troops1/AboutPage.js",
+  "homepage": "https://airluit.github.io/troopDapp1/",
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
