@@ -127,21 +127,7 @@ function App() {
               margin: 40,
             }}
           >
-            <div>
-              <Link className="menu-option" to="/goatTroopDapp1">
-                Home
-              </Link>
-            </div>
-            <div>
-              <Link className="menu-option" to="/goatTroopDapp1?page=about">
-                About
-              </Link>
-            </div>
-            <div>
-              <Link className="menu-option" to="/goatTroopDapp1?page=map">
-                Roadmap
-              </Link>
-            </div>
+            
           </s.TextTitle>
         </s.Container>
         <ResponsiveWrapper flex={1} style={{ padding: 12 }}>

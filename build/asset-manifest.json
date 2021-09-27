@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/goatTroopDapp1/static/css/main.e9b54df5.chunk.css",
-    "main.js": "/goatTroopDapp1/static/js/main.174da0ba.chunk.js",
-    "main.js.map": "/goatTroopDapp1/static/js/main.174da0ba.chunk.js.map",
-    "runtime-main.js": "/goatTroopDapp1/static/js/runtime-main.48fab321.js",
-    "runtime-main.js.map": "/goatTroopDapp1/static/js/runtime-main.48fab321.js.map",
-    "static/js/2.ba5c56d2.chunk.js": "/goatTroopDapp1/static/js/2.ba5c56d2.chunk.js",
-    "static/js/2.ba5c56d2.chunk.js.map": "/goatTroopDapp1/static/js/2.ba5c56d2.chunk.js.map",
-    "static/js/3.81531e79.chunk.js": "/goatTroopDapp1/static/js/3.81531e79.chunk.js",
-    "static/js/3.81531e79.chunk.js.map": "/goatTroopDapp1/static/js/3.81531e79.chunk.js.map",
+    "main.css": "/goatTroopDapp1/static/css/main.afd38bee.chunk.css",
+    "main.js": "/goatTroopDapp1/static/js/main.8ba19d2b.chunk.js",
+    "main.js.map": "/goatTroopDapp1/static/js/main.8ba19d2b.chunk.js.map",
+    "runtime-main.js": "/goatTroopDapp1/static/js/runtime-main.d9be2df6.js",
+    "runtime-main.js.map": "/goatTroopDapp1/static/js/runtime-main.d9be2df6.js.map",
+    "static/js/2.03c14b17.chunk.js": "/goatTroopDapp1/static/js/2.03c14b17.chunk.js",
+    "static/js/2.03c14b17.chunk.js.map": "/goatTroopDapp1/static/js/2.03c14b17.chunk.js.map",
+    "static/js/3.b5e75caa.chunk.js": "/goatTroopDapp1/static/js/3.b5e75caa.chunk.js",
+    "static/js/3.b5e75caa.chunk.js.map": "/goatTroopDapp1/static/js/3.b5e75caa.chunk.js.map",
     "index.html": "/goatTroopDapp1/index.html",
-    "static/css/main.e9b54df5.chunk.css.map": "/goatTroopDapp1/static/css/main.e9b54df5.chunk.css.map",
-    "static/js/2.ba5c56d2.chunk.js.LICENSE.txt": "/goatTroopDapp1/static/js/2.ba5c56d2.chunk.js.LICENSE.txt",
+    "static/css/main.afd38bee.chunk.css.map": "/goatTroopDapp1/static/css/main.afd38bee.chunk.css.map",
+    "static/js/2.03c14b17.chunk.js.LICENSE.txt": "/goatTroopDapp1/static/js/2.03c14b17.chunk.js.LICENSE.txt",
     "static/media/1.75f03515.png": "/goatTroopDapp1/static/media/1.75f03515.png",
     "static/media/MintHere.60793082.png": "/goatTroopDapp1/static/media/MintHere.60793082.png",
     "static/media/reset.css": "/goatTroopDapp1/static/media/PressStart2P-Regular.f2341734.woff",
     "static/media/goatTeaser.ed6cfc95.png": "/goatTroopDapp1/static/media/goatTeaser.ed6cfc95.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.48fab321.js",
-    "static/js/2.ba5c56d2.chunk.js",
-    "static/css/main.e9b54df5.chunk.css",
-    "static/js/main.174da0ba.chunk.js"
+    "static/js/runtime-main.d9be2df6.js",
+    "static/js/2.03c14b17.chunk.js",
+    "static/css/main.afd38bee.chunk.css",
+    "static/js/main.8ba19d2b.chunk.js"
   ]
 }
