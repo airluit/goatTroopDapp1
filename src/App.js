@@ -180,7 +180,7 @@ function App() {
             ) : (
               <>
                 <s.TextTitle style={{ textAlign: 'center' }}>
-                  1 george NFT costs .06 ETH
+                  
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextTitle style={{ textAlign: 'center' }}>
@@ -242,7 +242,7 @@ function App() {
         <s.SpacerSmall />
         <s.Container jc={'center'} ai={'center'} style={{ width: '70%' }}>
           <s.TextDescription style={{ textAlign: 'center', fontSize: 18 }}>
-            You are helping the families of the 13 fallen soldiers.
+            Thank you! You are helping support the troops. 
           </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription style={{ textAlign: 'center', fontSize: 14 }}>
