@@ -23,7 +23,8 @@ function TeamPage() {
                 </a>
                <div class="desc">
                   <h1>AirLuit</h1>
-                  <p>BS in CS with an upstairs office. Flies like he stole the plane</p>
+                  <p>Piloting the Coding Force, Air Luit is often flying high in the clouds. 
+                     His days are spent in dog fights leading his troops through the skies with brilliant success.</p>
                 </div>
             </div>
 
@@ -43,7 +44,8 @@ function TeamPage() {
                 </a>
                <div class="desc">
                   <h1>Bulging Idiot</h1>
-                  <p>our accomplished off the grid artist </p>
+                  <p>First in command in the art department,<br/>
+                    General Bulging Idiot shows no mercy towards sleep </p>
                 </div>
             </div>
 
