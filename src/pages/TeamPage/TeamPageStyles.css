@@ -1,0 +1,34 @@
+h1{
+    font-family: "impact" , fantasy;
+    font-weight: bold;
+    color:black;
+}
+
+p{
+    padding-top: 10px;
+    font-family: fantasy;
+    color:black;
+}
+div.gallery {
+    display: inline-table;
+    margin: 10px;
+    float:none;
+    width: 200px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    background-color: #daa250;
+  }
+  
