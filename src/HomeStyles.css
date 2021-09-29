@@ -1,8 +1,22 @@
 .home-page {
     background-color: #313639;
-    Min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 90px);
     color: white;
-    margin-top: 50px;
-   
+    padding: 70px 60px 20px;
     text-align: center;
+    box-sizing: content-box;
+    font-family: Verdana, Geneva ,sans-serif; 
+
+   
 }
+
+a, h1, div, span, p {
+    font-family: Verdana, Geneva ,sans-serif;
+}
+/* div {
+    font-family: Verdana, Geneva ,sans-serif;
+}
+
+h1 {
+    font-family: Verdana, Geneva ,sans-serif;
+} */

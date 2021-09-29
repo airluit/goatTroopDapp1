@@ -1,65 +1,77 @@
-h1{
-    font-family: "Verdana";
-    font-weight: bold;
-    color:black;
+h1 {
+  font-family: 'Verdana';
+  font-weight: bold;
+  color: black;
 }
 
-p{
-    padding-top: 10px;
-    font-family: verdana;
-    color:black;
+p {
+  padding-top: 10px;
+  font-family: verdana;
+  color: black;
+  line-height: 14px;
 }
-div.gallery {
-    display: inline-table;
-    margin: 10px;
-    float:none;
-    width: 200px;
-    
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  h1{
-    font-size: 20px;
-  }
-  div.desc {
-    font-size: 12px;
-    padding: 10px;
-    text-align: center;
-    background-color: #daa250;
-  }
 
-  div.michelobsBox{
-    font-size: 12px;
-    padding: 10px;
-    padding-bottom: 22px;
-    text-align: center;
-    background-color: #daa250;
+.social-container {
+  display: grid;
+  padding: 10px 0 0;
+  justify-content: center;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+}
 
-  }
+.discord-icon {
+  width: 20px;
+  height: auto;
+}
 
-  div.bulgingBox{
-    font-size: 12px;
-    padding: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    background-color: #daa250;
+.social-name {
+  color: black;
+  text-align: left;
+}
 
-  }
+.gallery {
+  border: 1px solid transparent;
+  display: inline-table;
+  margin: 10px;
+  float: none;
+  width: 200px;
+}
 
-  div.NFTJoe{
-    font-size: 12px;
-    padding: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    background-color: #daa250;
+.goat-image {
+  width: 100%;
+  height: auto;
+}
 
-  }
-  
-  
+h1 {
+  font-size: 20px;
+}
+.desc {
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  background-color: #daa250;
+}
+
+.michelobsBox {
+  font-size: 12px;
+  padding: 10px;
+  padding-bottom: 22px;
+  text-align: center;
+  background-color: #daa250;
+}
+
+.bulgingBox {
+  font-size: 12px;
+  padding: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #daa250;
+}
+
+.NFTJoe {
+  font-size: 12px;
+  padding: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #daa250;
+}
