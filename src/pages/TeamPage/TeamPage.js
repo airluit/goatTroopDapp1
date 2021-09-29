@@ -13,7 +13,7 @@ function TeamPage() {
                 </a>
                <div class="desc">
                   <h1>Vinny Gorgeous</h1>
-                  <p>Born in the Cleveland Mafia. A retired snitch. Unable to keep a secret .</p>
+                  <p>Born in the Cleveland Mafia. A retired snitch. Unable to keep a secret.</p>
                 </div>
             </div>
 
@@ -26,6 +26,7 @@ function TeamPage() {
                   <p>Piloting the Coding Force, Air Luit is often flying high in the clouds. 
                      His days are spent in dog fights leading his troops through the skies 
                      with brilliant success.</p>
+                    
                 </div>
             </div>
 
@@ -36,6 +37,7 @@ function TeamPage() {
                <div class="desc">
                   <h1>Michelob Ultras</h1>
                   <p>Previously an AA member, joined the military for a more tight knit group.</p>
+                  
                 </div>
             </div>
 
