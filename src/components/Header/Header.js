@@ -1,11 +1,12 @@
 import React from 'react'
 import './HeaderStyles.css'
+import infantryLogo from '../../assets/images/troopsIfantry.png'
 import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom'
 
 function Header() {
   return (
     <div className="header-wrapper">
-      <div className="logo">logo</div>
+      <div className="logo"><img src={infantryLogo}/></div>
       <nav className="nav-container">
         <Link className="menu-option" to="/goatTroopDapp1">
           Home

@@ -1,12 +1,12 @@
 h1{
-    font-family: "impact" , fantasy;
+    font-family: "Verdana";
     font-weight: bold;
     color:black;
 }
 
 p{
     padding-top: 10px;
-    font-family: fantasy;
+    font-family: verdana;
     color:black;
 }
 div.gallery {

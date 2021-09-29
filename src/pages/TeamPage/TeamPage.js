@@ -24,7 +24,8 @@ function TeamPage() {
                <div class="desc">
                   <h1>AirLuit</h1>
                   <p>Piloting the Coding Force, Air Luit is often flying high in the clouds. 
-                     His days are spent in dog fights leading his troops through the skies with brilliant success.</p>
+                     His days are spent in dog fights leading his troops through the skies 
+                     with brilliant success.</p>
                 </div>
             </div>
 
@@ -34,7 +35,7 @@ function TeamPage() {
                 </a>
                <div class="desc">
                   <h1>Michelob Ultras</h1>
-                  <p>Previously an AA member, joined the military for a tight knit group.</p>
+                  <p>Previously an AA member, joined the military for a more tight knit group.</p>
                 </div>
             </div>
 
@@ -44,7 +45,7 @@ function TeamPage() {
                 </a>
                <div class="desc">
                   <h1>Bulging Idiot</h1>
-                  <p>First in command in the art department,<br/>
+                  <p>First in command of the art department,<br/>
                     General Bulging Idiot shows no mercy towards sleep </p>
                 </div>
             </div>

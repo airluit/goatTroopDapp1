@@ -1,15 +1,18 @@
 .header-wrapper {
     height: 50px;
     background-color: black;
-    position: fixed;
+    text-align: center;
+    position:fixed;
     top: 0;
     width: 100%;
     display: grid;
     grid-template-columns: 200px 1fr;
 }
-
+img{
+    width: 100px;
+}
 .logo {
-    color: white;
+    width:50px;
 }
 
 .social-icons {
@@ -19,6 +22,7 @@
 }
 
 .menu-option {
+    font-family: Verdana;
     color: white;
     font-size: 14px;
     text-decoration: none;
@@ -32,7 +36,7 @@
 
 .nav-container {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     height: 50px;
     min-width: 916px;
