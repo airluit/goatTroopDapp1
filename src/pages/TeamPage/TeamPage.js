@@ -38,6 +38,7 @@ function TeamPage() {
                <div class="desc">
                   <h1>Michelob Ultras</h1>
                   <p>Previously an AA member, joined the military for a more tight knit group.</p>
+                  <p> chat with Michelob Ultras <a href="https://discordapp.com/users/MichelobUltras#2492">here!</a></p>
                   
                 </div>
             </div>
@@ -60,7 +61,7 @@ function TeamPage() {
                <div class="desc">
                   <h1>NFTjoe</h1>
                   <p>Joined because we said there was free pizza.</p>
-                  <p><i class="fab fa-discord"> @NFTjoe</i></p>
+                  <p></p>
                     
                 </div>
             </div>
