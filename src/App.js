@@ -110,7 +110,7 @@ function App() {
   }, [blockchain.account])
   //changine of the website happens here!!!!!!
   return (
-    <s.Screen style={{ backgroundColor: 'black' }}>
+    <s.Screen style={{ backgroundColor: '#313639' }}>
       <s.Container flex={1} ai={'center'}>
         <div className='header-text'>
           Welcome to Goat Troops…
@@ -145,7 +145,7 @@ function App() {
             flex={1}
             jc={'center'}
             ai={'center'}
-            style={{ backgroundColor: '#000000', padding: 12 }}
+            style={{ backgroundColor: '#313639', padding: 12 }}
           >
             {Number(data.totalSupply) == 10000 ? (
               <>

@@ -22,7 +22,7 @@ function Header() {
           Team
         </Link>
         <Link className="menu-option" to="/goatTroopDapp1?page=phase2">
-          Phase II
+          Story
         </Link>
         <Link className="menu-option" to="/goatTroopDapp1?page=gallery">
           Gallery

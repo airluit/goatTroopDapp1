@@ -1,8 +1,8 @@
 .home-page {
     background-color: #313639;
-    min-height: 100%;
+    Min-height: calc(100vh - 50px);
     color: white;
     margin-top: 50px;
-    height: calc(100vh - 50px);
+   
     text-align: center;
 }

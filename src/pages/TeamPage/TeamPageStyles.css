@@ -25,10 +25,41 @@ div.gallery {
     width: 100%;
     height: auto;
   }
-  
+  h1{
+    font-size: 20px;
+  }
   div.desc {
+    font-size: 12px;
     padding: 10px;
     text-align: center;
     background-color: #daa250;
   }
+
+  div.michelobsBox{
+    font-size: 12px;
+    padding: 10px;
+    padding-bottom: 22px;
+    text-align: center;
+    background-color: #daa250;
+
+  }
+
+  div.bulgingBox{
+    font-size: 12px;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #daa250;
+
+  }
+
+  div.NFTJoe{
+    font-size: 12px;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #daa250;
+
+  }
+  
   

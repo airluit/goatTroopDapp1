@@ -8,12 +8,15 @@
     width: 100%;
     display: grid;
     grid-template-columns: 200px 1fr;
+    
+    
 }
 img{
     width: 100px;
 }
 .logo {
     width:50px;
+    
 }
 
 .social-icons {
