@@ -8,6 +8,7 @@ import './styles/reset.css'
 import './styles/theme.css'
 import Header from './components/Header/Header'
 import Home from './Home'
+import Footer from './components/Footer/Footer'
 
 //
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/goatTroopDapp1/" component={Home} />
       </Switch>
+      <Footer />
     </Router>
   </Provider>,
   document.getElementById('root'),

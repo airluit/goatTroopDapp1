@@ -17,7 +17,6 @@ const tabs = [
   { link: '/goatTroopDapp1?page=team', text: 'Team' },
   { link: '/goatTroopDapp1?page=phase2', text: 'Story' },
   { link: '/goatTroopDapp1?page=gallery', text: 'Gallery' },
-  { link: '/goatTroopDapp1?page=terms', text: 'Terms & Conditions' },
   { link: '/goatTroopDapp1?page=donations', text: 'Donations' },
 ]
 
@@ -37,7 +36,7 @@ function Header() {
       <div className="logo">
         <img src={infantryLogoGray} />
       </div>
-      {size.width > 1090 ? (
+      {size.width > 1000 ? (
         <nav className="nav-container">
           {tabs.map((tab) => (
             <Link key={tab.text} className="menu-option" to={tab.link}>
@@ -76,7 +75,7 @@ function Header() {
             <div className="drawer-mui">
               {tabs.map((tab) => (
                 <div className="drawer-item">
-                  <Link key={tab.text}  className="menu-option" to={tab.link}>
+                  <Link key={tab.text} to={tab.link}>
                     {tab.text}
                   </Link>
                 </div>

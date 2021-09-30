@@ -8,11 +8,11 @@ function TeamPage() {
   return (
     <div className="">
       <div className="header-text">Team</div>
-      <div class="gallery">
+      <div className="gallery">
         <a>
           <img src={goat1} className="goat-image" />
         </a>
-        <div class="desc">
+        <div className="desc">
           <h1>Vinny Gorgeous</h1>
           <p>
             Born in the Cleveland Mafia,
@@ -33,11 +33,11 @@ function TeamPage() {
         </div>
       </div>
 
-      <div class="gallery">
+      <div className="gallery">
         <a>
           <img src={goat1} className="goat-image" />
         </a>
-        <div class="desc">
+        <div className="desc">
           <h1>AirLuit</h1>
           <p>
             Busy piloting the Code Force high in the clouds,
@@ -58,11 +58,11 @@ function TeamPage() {
         </div>
       </div>
 
-      <div class="gallery">
+      <div className="gallery">
         <a>
           <img src={goat1} className="goat-image" />
         </a>
-        <div class="michelobsBox">
+        <div className="michelobsBox">
           <h1>Michelob Ultras</h1>
           <p>
             Previously an AA member,
@@ -84,11 +84,11 @@ function TeamPage() {
         </div>
       </div>
 
-      <div class="gallery">
+      <div className="gallery">
         <a>
           <img src={goat1} className="goat-image" />
         </a>
-        <div class="bulgingBox">
+        <div className="bulgingBox">
           <h1>Bulging Idiot</h1>
           <p>
             First in command in the Department of Art,
@@ -108,11 +108,11 @@ function TeamPage() {
         </div>
       </div>
 
-      <div class="gallery">
+      <div className="gallery">
         <a>
           <img src={goat1} className="goat-image" />
         </a>
-        <div class="desc">
+        <div className="desc">
           <h1>NFTjoe</h1>
           <p>
             Joined the military because

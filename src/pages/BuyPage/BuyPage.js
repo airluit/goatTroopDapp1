@@ -6,7 +6,7 @@ function BuyPage() {
   return (
     <div className="buy-page">
       <div className="header-text">Buy a Goat</div>
-      <p>
+      <p style={{color: "white"}}>
         When going through our mint proces, people will connect to their own
         MetaMask wallet then will click a button that says “Mint Here.” After
         doing so, they will then choose how many they want to mint at a time.
