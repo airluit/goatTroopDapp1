@@ -19,16 +19,14 @@ function TeamPage() {
             <br />a retired snitch who is unable to keep a secret decided to
             join the military.
           </p>
-          <div className="social-container"></div>
+
+          <div className="bottom-socials">
           <div className="social-container">
             <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">
-                Discord Name
-            </div>
+            <div className="social-name">Discord Name</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">
-                Twitter Name
-            </div>
+            <div className="social-name">Twitter Name</div>
+          </div>
           </div>
         </div>
       </div>
@@ -45,15 +43,13 @@ function TeamPage() {
             spends his days getting into dog fights
             <br />
           </p>
+          <div className="bottom-socials">
           <div className="social-container">
             <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">
-                Discord Name
-            </div>
+            <div className="social-name">Discord Name</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">
-                Twitter Name
-            </div>
+            <div className="social-name">Twitter Name</div>
+          </div>
           </div>
         </div>
       </div>
@@ -62,7 +58,7 @@ function TeamPage() {
         <a>
           <img src={goat1} className="goat-image" />
         </a>
-        <div className="michelobsBox">
+        <div className="michelobsBox desc">
           <h1>Michelob Ultras</h1>
           <p>
             Previously an AA member,
@@ -71,15 +67,13 @@ function TeamPage() {
             <br />
             for a more tight knit group.
           </p>
+          <div className="bottom-socials">
           <div className="social-container">
             <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">
-                Discord Name
-            </div>
+            <div className="social-name">Discord Name</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">
-                Twitter Name
-            </div>
+            <div className="social-name">Twitter Name</div>
+          </div>
           </div>
         </div>
       </div>
@@ -88,22 +82,20 @@ function TeamPage() {
         <a>
           <img src={goat1} className="goat-image" />
         </a>
-        <div className="bulgingBox">
+        <div className="bulgingBox desc">
           <h1>Bulging Idiot</h1>
           <p>
             First in command in the Department of Art,
             <br />
             showing no mercy towards sleep.
           </p>
+          <div className="bottom-socials">
           <div className="social-container">
             <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">
-                Discord Name
-            </div>
+            <div className="social-name">Discord Name</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">
-                Twitter Name
-            </div>
+            <div className="social-name">Twitter Name</div>
+          </div>
           </div>
         </div>
       </div>
@@ -119,15 +111,13 @@ function TeamPage() {
             <br />
             he heard there was free pizza.
           </p>
+          <div className="bottom-socials">
           <div className="social-container">
             <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">
-                Discord Name
-            </div>
+            <div className="social-name">Discord Name</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">
-                Twitter Name
-            </div>
+            <div className="social-name">Twitter Name</div>
+          </div>
           </div>
         </div>
       </div>
