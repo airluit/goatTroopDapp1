@@ -10,9 +10,10 @@ function BuyPage() {
         <h1>Features</h1>
         <p>
         <ul>
-            <li>Stats: Health, Attack, Defense </li>
-            <li>Toxic Waste Spill Storyline with Airdrop </li>
-            <li> Armory Unlocked Weapons with Airdrop Merchandise </li>
+            <li>-Stats: Health (HP), Attack (ATK), Defense (DEF) </li>
+            <li>-Toxic Waste Spill (Airdrop)</li>
+            <li>-Military Arsenal Unlocked (Airdrop) </li>
+            <li>-Merchandise </li>
         </ul>
         </p>
       </div>
@@ -22,9 +23,9 @@ function BuyPage() {
         <p> With the retirement of General Harold Ransom. The Goat Troops are left to decide the next best course of action. 
             Holders of Goat Troop Infantry decide their own fate:
         <ul>
-            <li>Civil War</li>
-            <li>Battle of the Bulging Idiot  </li>
-            <li>Factions! </li>
+            <li>-Civil War</li>
+            <li>-Battle of the Bulging Idiot  </li>
+            <li>-Factions! </li>
         </ul>
         </p>
       </div>
