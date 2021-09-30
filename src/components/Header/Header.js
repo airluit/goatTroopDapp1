@@ -75,7 +75,7 @@ function Header() {
             <div className="drawer-mui">
               {tabs.map((tab) => (
                 <div className="drawer-item">
-                  <Link key={tab.text} to={tab.link}>
+                  <Link key={tab.text} className="menu-option" to={tab.link}>
                     {tab.text}
                   </Link>
                 </div>
