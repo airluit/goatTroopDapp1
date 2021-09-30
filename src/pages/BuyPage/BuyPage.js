@@ -5,17 +5,29 @@ import './BuyPageStyles.css'
 function BuyPage() {
   return (
     <div className="buy-page">
-      <div className="header-text">Buy a Goat</div>
-      <p style={{color: "white"}}>
-        When going through our mint proces, people will connect to their own
-        MetaMask wallet then will click a button that says “Mint Here.” After
-        doing so, they will then choose how many they want to mint at a time.
-        After each of the 13,000 (12,870 actually, giveaway 130) images get
-        minted, we would like to have some sort of a tracker to let people know
-        how many are left. For example, when project ‘Based Fish Mafia’ did
-        their mint, they stated how many were left as people were buying them.
-      </p>
-      <img src={MintHerePic} />
+      <div className="header-text">What's in store</div>
+      <div className="marchAdds">
+        <h1>Features</h1>
+        <p>
+        <ul>
+            <li>Stats: HP, ATK, DEF </li>
+            <li>Toxic Waste Spill Storyline with Airdrop </li>
+            <li> Armory Unlocked Weapons with Airdrop Merchandise </li>
+        </ul>
+        </p>
+      </div>
+
+      <div className="marchAdds">
+        <h1>Community DOA</h1>
+        <p> With the retirement of General Harold Ransom. The Goat Troops are left to decide the next best course of action. 
+            Holders of Goat Troop Infantry decide their own fate:
+        <ul>
+            <li>Civil War</li>
+            <li>Battle of the Bulging Idiot  </li>
+            <li>Factions! </li>
+        </ul>
+        </p>
+      </div>
     </div>
   )
 }

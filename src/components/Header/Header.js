@@ -11,9 +11,9 @@ import MenuIcon from '@mui/icons-material/Menu'
 import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom'
 
 const tabs = [
-  { link: '/goatTroopDapp1', text: 'Home' },
-  { link: '/goatTroopDapp1?page=buy', text: 'Buy a Goat' },
-  { link: '/goatTroopDapp1?page=map', text: 'Roadmap' },
+  { link: '/goatTroopDapp1', text: 'Buy a Goat' },
+  { link: '/goatTroopDapp1?page=map', text: 'Road Map' },
+  { link: '/goatTroopDapp1?page=buy', text: ' Marching Orders ' },
   { link: '/goatTroopDapp1?page=team', text: 'Team' },
   { link: '/goatTroopDapp1?page=phase2', text: 'Story' },
   { link: '/goatTroopDapp1?page=gallery', text: 'Gallery' },

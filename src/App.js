@@ -113,7 +113,7 @@ function App() {
     <s.Screen style={{ backgroundColor: '#313639' }}>
       <s.Container flex={1} ai={'center'}>
         <div className='header-text'>
-          Welcome to Goat Troops…
+          Welcome to Goat Troops Infantry…
         </div>
         <s.SpacerMedium />
         <StyledImg alt={'example'} src={goat} />
@@ -166,9 +166,13 @@ function App() {
             ) : (
               <>
                 <s.TextTitle style={{ textAlign: 'center' }}>
-                  
+                Goat Troops Infantry is a collection of 13,000 Goats training for battle on the Ethereum blockchain. Donations will be made to the families affected
+                 by the terrorist attack during the evacuation in Afghanistan. 
                 </s.TextTitle>
                 <s.SpacerXSmall />
+                <s.SpacerXSmall />
+                <s.SpacerXSmall />
+                <s.SpacerLarge />
                 <s.TextTitle style={{ textAlign: 'center' }}>
                   1 Troop NFT costs .06 ETH
                 </s.TextTitle>
