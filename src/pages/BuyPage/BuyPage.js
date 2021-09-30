@@ -10,7 +10,7 @@ function BuyPage() {
         <h1>Features</h1>
         <p>
         <ul>
-            <li>Stats: HP, ATK, DEF </li>
+            <li>Stats: Health, Attack, Defense </li>
             <li>Toxic Waste Spill Storyline with Airdrop </li>
             <li> Armory Unlocked Weapons with Airdrop Merchandise </li>
         </ul>
