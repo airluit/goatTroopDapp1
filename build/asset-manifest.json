@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/goatTroopDapp1/static/css/main.2a645693.chunk.css",
-    "main.js": "/goatTroopDapp1/static/js/main.8dee0d74.chunk.js",
-    "main.js.map": "/goatTroopDapp1/static/js/main.8dee0d74.chunk.js.map",
+    "main.js": "/goatTroopDapp1/static/js/main.9ede369c.chunk.js",
+    "main.js.map": "/goatTroopDapp1/static/js/main.9ede369c.chunk.js.map",
     "runtime-main.js": "/goatTroopDapp1/static/js/runtime-main.517257cc.js",
     "runtime-main.js.map": "/goatTroopDapp1/static/js/runtime-main.517257cc.js.map",
     "static/js/2.49fbcab9.chunk.js": "/goatTroopDapp1/static/js/2.49fbcab9.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.517257cc.js",
     "static/js/2.49fbcab9.chunk.js",
     "static/css/main.2a645693.chunk.css",
-    "static/js/main.8dee0d74.chunk.js"
+    "static/js/main.9ede369c.chunk.js"
   ]
 }

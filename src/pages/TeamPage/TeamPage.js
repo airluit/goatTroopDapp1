@@ -23,7 +23,7 @@ function TeamPage() {
           <div className="bottom-socials">
           <div className="social-container">
             <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">Discord Name</div>
+            <div className="social-name">VinnyGorgeous#2108</div>
             <img className="discord-icon" src={twitterIcon} />
             <div className="social-name">Twitter Name</div>
           </div>
@@ -46,7 +46,7 @@ function TeamPage() {
           <div className="bottom-socials">
           <div className="social-container">
             <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">Discord Name</div>
+            <div className="social-name">AirLuit#5452</div>
             <img className="discord-icon" src={twitterIcon} />
             <div className="social-name">Twitter Name</div>
           </div>
@@ -70,9 +70,10 @@ function TeamPage() {
           <div className="bottom-socials">
           <div className="social-container">
             <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">Discord Name</div>
+            <div className="social-name">MichelobUltras#2492</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">Twitter Name</div>
+            <div className="social-name"><a href="https://twitter.com/MichelobUltras?s=20">@MichelobUltras</a></div>
+
           </div>
           </div>
         </div>
@@ -92,9 +93,9 @@ function TeamPage() {
           <div className="bottom-socials">
           <div className="social-container">
             <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">Discord Name</div>
+            <div className="social-name">Bulging Idiot#8623</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">Twitter Name</div>
+            <div className="social-name"><a href="https://twitter.com/bulgingidiot?s=20">@bulgingidiot</a></div>
           </div>
           </div>
         </div>
@@ -114,7 +115,7 @@ function TeamPage() {
           <div className="bottom-socials">
           <div className="social-container">
             <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">Discord Name</div>
+            <div className="social-name">NFTjoe#6274</div>
             <img className="discord-icon" src={twitterIcon} />
             <div className="social-name">Twitter Name</div>
           </div>
