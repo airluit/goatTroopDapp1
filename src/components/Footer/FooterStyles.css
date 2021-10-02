@@ -1,6 +1,6 @@
 .footer-wrapper {
   font-family: Verdana;
-  height: 80px;
+  height: 100px;
   background-color: #313639;
   text-align: center;
   position: fixed;
@@ -15,8 +15,19 @@
 }
 
 .infantry-icon {
-  height: 60px;
-  margin: 10px;
+  height: 50px;
+  margin: 10px 0 0;
+}
+
+.terms-footer-wrapper {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.terms-footer {
+  color: white;
+  font-size: 10px;
 }
 
 .terms-icons {

@@ -2,6 +2,17 @@ import React, { useEffect } from 'react'
 import goat1 from '../../assets/images/goatTeaser.png'
 import discordIcon from '../../assets/images/discord.jpg'
 import twitterIcon from '../../assets/images/twitterIcon.png'
+
+
+import AirGoat from '../../assets/images/teamGoats/air.jpeg'
+import VinGoat from '../../assets/images/teamGoats/vin.jpeg'
+import BulGoat from '../../assets/images/teamGoats/bul.jpg'
+import MicGoat from '../../assets/images/teamGoats/mic.jpg'
+import TinGoat from '../../assets/images/teamGoats/tin.jpg'
+import JoeGoat from '../../assets/images/teamGoats/joe.jpg'
+
+
+
 import './TeamPageStyles.css'
 
 function TeamPage() {
@@ -10,7 +21,7 @@ function TeamPage() {
       <div className="header-text">Team</div>
       <div className="gallery">
         <a>
-          <img src={goat1} className="goat-image" />
+          <img src={VinGoat} className="goat-image" />
         </a>
         <div className="desc">
           <h1>Vinny Gorgeous</h1>
@@ -33,7 +44,7 @@ function TeamPage() {
 
       <div className="gallery">
         <a>
-          <img src={goat1} className="goat-image" />
+          <img src={AirGoat} className="goat-image" />
         </a>
         <div className="desc">
           <h1>AirLuit</h1>
@@ -56,7 +67,7 @@ function TeamPage() {
 
       <div className="gallery">
         <a>
-          <img src={goat1} className="goat-image" />
+          <img src={MicGoat} className="goat-image" />
         </a>
         <div className="michelobsBox desc">
           <h1>Michelob Ultras</h1>
@@ -80,7 +91,7 @@ function TeamPage() {
 
       <div className="gallery">
         <a>
-          <img src={goat1} className="goat-image" />
+          <img src={BulGoat} className="goat-image" />
         </a>
         <div className="bulgingBox desc">
           <h1>Bulging Idiot</h1>
@@ -102,7 +113,7 @@ function TeamPage() {
 
       <div className="gallery">
         <a>
-          <img src={goat1} className="goat-image" />
+          <img src={JoeGoat} className="goat-image" />
         </a>
         <div className="desc">
           <h1>NFTjoe</h1>
@@ -110,6 +121,27 @@ function TeamPage() {
             Joined the military because
             <br />
             he heard there was free pizza.
+          </p>
+          <div className="bottom-socials">
+          <div className="social-container">
+            <img className="discord-icon" src={discordIcon} />
+            <div className="social-name">Discord Name</div>
+            <img className="discord-icon" src={twitterIcon} />
+            <div className="social-name">Twitter Name</div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="gallery">
+        <a>
+          <img src={TinGoat} className="goat-image" />
+        </a>
+        <div className="desc">
+          <h1>CrimsonTian</h1>
+          <p style={{'color' : 'black'}}>
+            lvl. 6 wizard. Joined the military for more experience in the field.
           </p>
           <div className="bottom-socials">
           <div className="social-container">

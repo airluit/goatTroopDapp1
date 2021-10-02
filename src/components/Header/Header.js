@@ -13,10 +13,10 @@ import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom'
 const tabs = [
   { link: '/goatTroopDapp1', text: 'Buy a Goat' },
   { link: '/goatTroopDapp1?page=map', text: 'Road Map' },
-  { link: '/goatTroopDapp1?page=buy', text: ' Marching Orders ' },
+  { link: '/goatTroopDapp1?page=marching', text: ' Marching Orders ' },
   { link: '/goatTroopDapp1?page=team', text: 'Team' },
-  { link: '/goatTroopDapp1?page=phase2', text: 'Story' },
-  { link: '/goatTroopDapp1?page=gallery', text: 'Gallery' },
+  { link: '/goatTroopDapp1?page=story', text: 'Story' },
+  { link: '/goatTroopDapp1?page=traits', text: 'Traits' },
   { link: '/goatTroopDapp1?page=donations', text: 'Donations' },
 ]
 
@@ -34,7 +34,9 @@ function Header() {
   return (
     <div className="header-wrapper">
       <div className="logo">
-        <img src={infantryLogoGray} />
+        <Link className="logo" to="/goatTroopDapp1">
+          <img src={infantryLogoGray} />
+        </Link>
       </div>
       {size.width > 1000 ? (
         <nav className="nav-container">
@@ -44,9 +46,9 @@ function Header() {
             </Link>
           ))}
           <div className="social-icons">
-            {links.map((link) => (
+            {links.map((link, ind) => (
               <img
-                key={link.icon}
+                key={ind}
                 src={link.icon}
                 className="header-social-icon"
                 onClick={() => {
@@ -81,9 +83,9 @@ function Header() {
                 </div>
               ))}
               <div className="social-icons">
-                {links.map((link) => (
+                {links.map((link, ind) => (
                   <img
-                    key={link.icon}
+                    key={ind + 's'}
                     src={link.icon}
                     className="header-social-icon"
                     onClick={() => {

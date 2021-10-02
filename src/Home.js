@@ -3,10 +3,10 @@ import App from './App'
 import AboutPage from './pages/AboutPage/AboutPage'
 import RoadMap from './pages/RoadMap/RoadMap'
 import TeamPage from './pages/TeamPage/TeamPage'
-import BuyPage from './pages/BuyPage/BuyPage'
-import PhasePage from './pages/PhasePage/PhasePage'
+import MarchingOrders from './pages/MarchingOrders/MarchingOrders'
+import StoryPage from './pages/StoryPage/StoryPage'
 import TermsPage from './pages/TermsPage/TermsPage'
-import GalleryPage from './pages/GalleryPage/GalleryPage'
+import TraitsPage from './pages/TraitsPage/TraitsPage'
 import DonationsPage from './pages/DonationsPage/DonationsPage'
 import './HomeStyles.css';
 
@@ -29,20 +29,20 @@ function Home() {
     case 'map':
       Page = RoadMap;
       break;
-    case 'buy':
-      Page = BuyPage;
+    case 'marching':
+      Page = MarchingOrders;
       break;
     case 'team':
       Page = TeamPage;
       break;
-    case 'phase2':
-      Page = PhasePage;
+    case 'story':
+      Page = StoryPage;
       break;
     case 'terms':
       Page = TermsPage;
       break;
-    case 'gallery':
-      Page = GalleryPage;
+    case 'traits':
+      Page = TraitsPage;
       break;
     case 'donations':
       Page = DonationsPage;

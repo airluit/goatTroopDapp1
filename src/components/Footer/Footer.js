@@ -8,10 +8,10 @@ import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom'
 import './FooterStyles.css'
 
 const links = [
-    { link: 'https://www.google.com', icon: discordIcon },
-    { link: 'https://www.google.com', icon: twitterIcon },
-    { link: 'https://www.google.com', icon: openIcon },
-  ]
+  { link: 'https://www.google.com', icon: discordIcon },
+  { link: 'https://www.google.com', icon: twitterIcon },
+  { link: 'https://www.google.com', icon: openIcon },
+]
 
 function Footer() {
   return (
@@ -19,6 +19,12 @@ function Footer() {
       <div className="terms">Goat Troops Infantry</div>
       <div>
         <img className="infantry-icon" src={infantryLogoGray} />
+        <div className="terms-footer-wrapper">
+          <div className="terms-footer">
+            By purchasing a Goat Troop you will hold all commercial rights to
+            your # Goat Troop.
+          </div>
+        </div>
       </div>
       <div className="terms-icons">
         {links.map((link) => (
