@@ -17,7 +17,7 @@ import './TeamPageStyles.css'
 
 function TeamPage() {
   return (
-    <div className="">
+    <div className="teampage">
       <div className="header-text">Team</div>
       <div className="gallery">
         <a>

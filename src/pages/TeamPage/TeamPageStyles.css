@@ -4,6 +4,11 @@ h1 {
   color: black;
 }
 
+.teampage {
+  max-width: 800px;
+  margin: auto;
+}
+
 p {
   padding-top: 10px;
   font-family: verdana;
