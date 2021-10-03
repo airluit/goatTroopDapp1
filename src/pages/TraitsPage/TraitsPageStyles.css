@@ -1,88 +1,89 @@
-div.marchAdds{
-    -webkit-text-size-adjust: 100%;
-    font-size: 22px;
-    font-family: verdana;
-    line-height: 30px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-width: 10px;
-    padding:5px 10px 5px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 10px;
-    border-color: transparent;
-    border-radius: 20px;
-    background-color: #daa250;
-    opacity: 1;
-    transform-style: preserve-3d;
-    text-align: justify;
-    text-align: left;
+div.marchAdds {
+  -webkit-text-size-adjust: 100%;
+  font-size: 22px;
+  font-family: verdana;
+  line-height: 30px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 10px;
+  padding: 5px 10px 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  border-color: transparent;
+  border-radius: 20px;
+  background-color: #daa250;
+  opacity: 1;
+  transform-style: preserve-3d;
+  text-align: justify;
+  text-align: left;
 }
 
-.traitImage1{
-    position: absolute;
-    top: 50px;
-    left: 25px;
-    height: 150px;
-    transform: rotate(7deg);
-    border: 10px solid white;
-
+.traitImage1 {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  height: 150px;
+  transform: rotate(7deg);
+  border: 10px solid white;
 }
 
-.traitImage2{
-    border: 10px solid white;
-    position: absolute;
-    top: 150px;
-    right: 13px;
-    height: 150px;
-    transform: rotate(-5deg);
+.traitImage2 {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border: 10px solid white;
+  position: absolute;
+  top: 150px;
+  right: 13px;
+  height: 150px;
+  transform: rotate(-5deg);
 }
 
 .traitHeader {
-    font-size: 25px;
-    margin-bottom: 10px;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .traitContainer {
-    min-width: 200px;
-    flex-grow: 1;
-    max-width: 333px;
-    padding: 0 15px;
+  min-width: 200px;
+  flex-grow: 1;
+  max-width: 333px;
+  padding: 0 15px;
 }
 
 .imageContainerRel {
-    height: 330px;
-    position: relative;
-    min-width: 200px;
-    flex-grow: 1;
-    max-width: 333px;
+  height: 330px;
+  position: relative;
+  width: 316px;
+  flex-grow: 1;
+  max-width: 316px;
 }
 
 .imageContainer {
-    position: absolute;
-    width: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 #content ul li {
-    list-style-Type: none;
-    padding: 0 0 4px 23px;
+  list-style-type: none;
+  padding: 0 0 4px 23px;
 }
 
 .traitRow {
-    font-size: 20px;
-    display: flex;
-    padding: 4px 0;
-    border-bottom: #daa250 solid 1px;
+  font-size: 20px;
+  display: flex;
+  padding: 4px 0;
+  border-bottom: #daa250 solid 1px;
 }
 
 .traitName {
-    flex-grow: 1;
-    text-align: right;
+  flex-grow: 1;
+  text-align: right;
 }
 
 .traitContent {
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
-    display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
 }
