@@ -19,8 +19,70 @@ div.marchAdds{
     text-align: left;
 }
 
+.traitImage1{
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    height: 150px;
+    transform: rotate(7deg);
+    border: 10px solid white;
+
+}
+
+.traitImage2{
+    border: 10px solid white;
+    position: absolute;
+    top: 150px;
+    right: 13px;
+    height: 150px;
+    transform: rotate(-5deg);
+}
+
+.traitHeader {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.traitContainer {
+    min-width: 200px;
+    flex-grow: 1;
+    max-width: 333px;
+    padding: 0 15px;
+}
+
+.imageContainerRel {
+    height: 330px;
+    position: relative;
+    min-width: 200px;
+    flex-grow: 1;
+    max-width: 333px;
+}
+
+.imageContainer {
+    position: absolute;
+    width: 100%;
+}
+
 #content ul li {
     list-style-Type: none;
     padding: 0 0 4px 23px;
-  
-   }
+}
+
+.traitRow {
+    font-size: 20px;
+    display: flex;
+    padding: 4px 0;
+    border-bottom: #daa250 solid 1px;
+}
+
+.traitName {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.traitContent {
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
