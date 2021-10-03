@@ -4,16 +4,16 @@ import goat2 from '../../assets/images/10.jpeg'
 import './TraitsPageStyles.css'
 
 const rarList = [
-  { name: 'Backgounds', number: 0 },
-  { name: 'Furs', number: 0 },
-  { name: 'Clothing', number: 0 },
-  { name: 'Mouths', number: 0 },
-  { name: 'Face Traits', number: 0 },
-  { name: 'Eyes', number: 0 },
-  { name: 'Piercings', number: 0 },
-  { name: 'Eyewear', number: 0 },
-  { name: 'Horns', number: 0 },
-  { name: 'Headwear', number: 0 },
+  { name: 'Backgounds', number: 12 },
+  { name: 'Furs', number: 16 },
+  { name: 'Clothing', number: 24 },
+  { name: 'Mouths', number: 18 },
+  { name: 'Face Traits', number: 12 },
+  { name: 'Eyes', number: 13 },
+  { name: 'Piercings', number: 12 },
+  { name: 'Eyewear', number: 12 },
+  { name: 'Horns', number: 12 },
+  { name: 'Headwear', number: 22 },
 ]
 
 function TraitsPage() {

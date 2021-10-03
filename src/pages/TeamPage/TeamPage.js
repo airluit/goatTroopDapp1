@@ -36,7 +36,7 @@ function TeamPage() {
             <img className="discord-icon" src={discordIcon} />
             <div className="social-name">VinnyGorgeous#2108</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">Twitter Name</div>
+            <div className="social-name"><a href="https://twitter.com/GoattroopsNFT?s=20">Twitter </a></div>
           </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ function TeamPage() {
             <img className="discord-icon" src={discordIcon} />
             <div className="social-name">AirLuit#5452</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">Twitter Name</div>
+            <div className="social-name"><a href="https://twitter.com/airluit">@airluit </a></div>
           </div>
           </div>
         </div>
@@ -128,7 +128,9 @@ function TeamPage() {
             <img className="discord-icon" src={discordIcon} />
             <div className="social-name">NFTjoe#6274</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">Twitter Name</div>
+            <div className="social-name"> <a href=" https://twitter.com/NFTjoe?s=20"> @NFTJoe</a></div>
+           
+
           </div>
           </div>
         </div>
@@ -149,7 +151,9 @@ function TeamPage() {
             <img className="discord-icon" src={discordIcon} />
             <div className="social-name">Discord Name</div>
             <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name">Twitter Name</div>
+            <div className="social-name"> <a href="https://twitter.com/GoattroopsNFT?s=20">Twitter </a></div>
+
+            
           </div>
           </div>
         </div>

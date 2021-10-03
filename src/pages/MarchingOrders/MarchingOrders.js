@@ -5,7 +5,7 @@ import './MarchingOrdersStyles.css'
 function MarchingOrders() {
   return (
     <div className="buy-page">
-      <div className="header-text">What's in store</div>
+      <div className="header-text">Marching Orders</div>
       <div className="marchAdds">
         <h1>Features</h1>
         <p>
@@ -13,6 +13,7 @@ function MarchingOrders() {
             <li>-Stats: Health (HP), Attack (ATK), Defense (DEF) </li>
             <li>-Toxic Waste Spill (Airdrop)</li>
             <li>-Military Arsenal Unlocked (Airdrop) </li>
+            <li>-Big Announcement after both airdrops! </li>
             <li>-Merchandise </li>
         </ul>
         </p>

@@ -8,9 +8,9 @@ import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom'
 import './FooterStyles.css'
 
 const links = [
-  { link: 'https://www.google.com', icon: discordIcon },
-  { link: 'https://www.google.com', icon: twitterIcon },
-  { link: 'https://www.google.com', icon: openIcon },
+  { link: 'https://discord.gg/RXVF6gW8', icon: discordIcon },
+  { link: 'https://twitter.com/GoattroopsNFT?s=20', icon: twitterIcon },
+  /*{ link: 'https://www.google.com', icon: openIcon }, */
 ]
 
 function Footer() {

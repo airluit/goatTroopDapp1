@@ -5,6 +5,7 @@ import { fetchData } from './redux/data/dataActions'
 import * as s from './styles/globalStyles'
 import styled from 'styled-components'
 import i1 from './assets/images/1.png'
+import banner from './assets/images/troopBanner.png'
 import goat from './assets/images/goatTeaser.png'
 import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom'
 import './AppStyles.css'
@@ -78,10 +79,10 @@ function App() {
       .mint(blockchain.account, _amount)
       .send({
         gasLimit: '285000',
-        to: '0x42d14e78e215e50f68a98e29134728ef02b7fa0d', //change this
+        to: '0x928cbde2368354d3a02db4f0ebf877bd3df14f5f', //change this
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
-          (0.02 * _amount).toString(),
+          (0.05 * _amount).toString(),
           'ether',
         ),
       })
@@ -116,7 +117,7 @@ function App() {
           Welcome to Goat Troops Infantry…
         </div>
         <s.SpacerMedium />
-        <StyledImg alt={'example'} src={goat} />
+        <StyledImg alt={'example'} src={banner} />
         <s.Container jc={'center'} ai={'center'}>
           <s.TextTitle
             style={{
@@ -137,7 +138,7 @@ function App() {
             <s.TextTitle
               style={{ textAlign: 'center', fontSize: 26, fontWeight: 'bold' }}
             >
-              {data.totalSupply}/10000
+              {data.totalSupply}/13000
             </s.TextTitle>
           </s.Container>
           <s.SpacerMedium />
