@@ -19,15 +19,17 @@ div.marchAdds {
   text-align: left;
 }
 
+
+
 .traitImage1 {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 50px;
-  left: 25px;
-  height: 150px;
-  transform: rotate(7deg);
-  border: 10px solid white;
-}
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    height: 200px;
+    transform: rotate(7deg);
+    border: 10px solid white;
+  }
 
 .traitImage2 {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
@@ -35,8 +37,29 @@ div.marchAdds {
   position: absolute;
   top: 150px;
   right: 13px;
-  height: 150px;
+  height: 200px;
   transform: rotate(-5deg);
+}
+
+
+.imageContainerRel {
+    height: 400px;
+    position: relative;
+    width: 416px;
+    flex-grow: 1;
+    max-width: 416px;
+  }
+
+@media only screen and (max-width: 465px) {
+    .traitImage1 {
+        height: 150px;
+    }
+    .traitImage2 {
+        height: 150px;
+    }
+    .imageContainerRel {
+        height: 350px;
+    }
 }
 
 .traitHeader {
@@ -47,17 +70,10 @@ div.marchAdds {
 .traitContainer {
   min-width: 200px;
   flex-grow: 1;
-  max-width: 333px;
-  padding: 0 15px;
+  max-width: 400px;
+  padding: 0 20px;
 }
 
-.imageContainerRel {
-  height: 330px;
-  position: relative;
-  width: 316px;
-  flex-grow: 1;
-  max-width: 316px;
-}
 
 .imageContainer {
   position: absolute;
