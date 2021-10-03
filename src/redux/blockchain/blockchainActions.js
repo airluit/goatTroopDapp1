@@ -54,7 +54,7 @@ export const connect = () => {
         if (networkId == 4) { //change this to number 1 when ready to deploy
           const SmartContractObj = new Web3EthContract(
             SmartContract,
-            "0xf32a6e88ef1c6604898d9782562d93e65113e8a2" //change this
+            "0x42d14e78e215e50f68a98e29134728ef02b7fa0d" //change this
           );
           dispatch(
             connectSuccess({
