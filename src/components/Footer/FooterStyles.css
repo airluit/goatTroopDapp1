@@ -19,6 +19,12 @@
   margin: 10px 0 0;
 }
 
+.nft-icon {
+  height: 50px;
+  padding-left: 10px;
+  margin: 10px 0 0;
+}
+
 .terms-footer-wrapper {
   height: 30px;
   display: flex;
