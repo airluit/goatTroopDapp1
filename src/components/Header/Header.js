@@ -34,7 +34,7 @@ function Header() {
   return (
     <div className="header-wrapper">
       <div className="logo">
-        <Link className="logo" to="/goatTroopDapp1">
+        <Link className="logo" to="/">
           <img src={infantryLogoGray} />
         </Link>
       </div>
