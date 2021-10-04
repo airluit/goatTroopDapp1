@@ -16,7 +16,7 @@ ReactDOM.render(
     <Router>
       <Header />
       <Switch>
-        <Route exact path="/goatTroopDapp1/" component={Home} />
+        <Route exact path="/" component={Home} />
       </Switch>
       <Footer />
     </Router>

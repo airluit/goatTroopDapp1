@@ -1,6 +1,6 @@
 The Goat Troop NFT
 
-https://airluit.github.io/goatTroopDapp1
+https://airluit.github.io
 
 Join the Goat Troop Community on Discord
 
