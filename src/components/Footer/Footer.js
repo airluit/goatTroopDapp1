@@ -23,8 +23,7 @@ function Footer() {
         <img className="infantry-icon" src={infantryLogoGray} />
         
         <img className="nft-icon" src={calIcon} /> 
-
-        <div className="nft-icon"><a href="https://nftcalendar.io/event/goat-troops-infantry/">NFT calendar</a></div>
+        <div className="nft-icon"><a style={{'color' : 'white'}} href="https://nftcalendar.io/event/goat-troops-infantry/">NFT calendar</a></div>
         <div className="terms-footer-wrapper">
           <div className="terms-footer">
             By purchasing a Goat Troop you will hold all commercial rights to
