@@ -117,7 +117,7 @@ function App() {
           Welcome to Goat Troops Infantry…
         </div>
         <s.SpacerMedium />
-        <StyledImg alt={'example'} src={banner} />
+        <img className="banner-img" src={banner} />
         <s.Container jc={'center'} ai={'center'}>
           <s.TextTitle
             style={{
@@ -196,12 +196,13 @@ function App() {
                     <s.SpacerSmall />
                     <StyledButton
                       onClick={(e) => {
-                        e.preventDefault()
-                        dispatch(connect())
-                        getData()
+                        // e.preventDefault()
+                        // dispatch(connect())
+                        // getData()
                       }}
                     >
-                      CONNECT WALLET
+                      Disabled until Oct 13th
+                      {/* CONNECT WALLET */}
                     </StyledButton>
                     {blockchain.errorMsg !== '' ? (
                       <>
@@ -217,12 +218,13 @@ function App() {
                     <StyledButton
                       disabled={claimingNft ? 1 : 0}
                       onClick={(e) => {
-                        e.preventDefault()
-                        claimNFTs(1)
-                        getData()
+                        // e.preventDefault()
+                        // claimNFTs(1)
+                        // getData()
                       }}
                     >
-                      {claimingNft ? 'Busy...' : 'Buy 1 NFT'}
+                       Disabled until Oct 13th
+                      {/* {claimingNft ? 'Busy...' : 'Buy 1 NFT'} */}
                     </StyledButton>
                   </s.Container>
                 )}
