@@ -33,7 +33,7 @@
     "web3": "^1.5.1",
     "web3-eth-contract": "^1.5.2"
   },
-  "homepage": "https://www.goattroops.io",
+  "homepage": "https://airluit.github.io/goatTroopDapp1/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
