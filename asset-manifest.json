@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.82c08bd9.chunk.css",
-    "main.js": "/static/js/main.d086ca51.chunk.js",
-    "main.js.map": "/static/js/main.d086ca51.chunk.js.map",
+    "main.css": "/static/css/main.dab86248.chunk.css",
+    "main.js": "/static/js/main.eea7c327.chunk.js",
+    "main.js.map": "/static/js/main.eea7c327.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.55d2177c.js",
     "runtime-main.js.map": "/static/js/runtime-main.55d2177c.js.map",
-    "static/js/2.fb6ee387.chunk.js": "/static/js/2.fb6ee387.chunk.js",
-    "static/js/2.fb6ee387.chunk.js.map": "/static/js/2.fb6ee387.chunk.js.map",
+    "static/js/2.b375d811.chunk.js": "/static/js/2.b375d811.chunk.js",
+    "static/js/2.b375d811.chunk.js.map": "/static/js/2.b375d811.chunk.js.map",
     "static/js/3.d2927621.chunk.js": "/static/js/3.d2927621.chunk.js",
     "static/js/3.d2927621.chunk.js.map": "/static/js/3.d2927621.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.82c08bd9.chunk.css.map": "/static/css/main.82c08bd9.chunk.css.map",
-    "static/js/2.fb6ee387.chunk.js.LICENSE.txt": "/static/js/2.fb6ee387.chunk.js.LICENSE.txt",
+    "static/css/main.dab86248.chunk.css.map": "/static/css/main.dab86248.chunk.css.map",
+    "static/js/2.b375d811.chunk.js.LICENSE.txt": "/static/js/2.b375d811.chunk.js.LICENSE.txt",
     "static/media/1.75f03515.png": "/static/media/1.75f03515.png",
     "static/media/10.cba2e179.jpeg": "/static/media/10.cba2e179.jpeg",
     "static/media/24.5a7eba1f.jpeg": "/static/media/24.5a7eba1f.jpeg",
@@ -23,6 +23,7 @@
     "static/media/goatTeaser.ed6cfc95.png": "/static/media/goatTeaser.ed6cfc95.png",
     "static/media/joe.1766ee63.jpg": "/static/media/joe.1766ee63.jpg",
     "static/media/mic.a101cf5d.jpg": "/static/media/mic.a101cf5d.jpg",
+    "static/media/nft-calendar-transparent.c5ef49e5.png": "/static/media/nft-calendar-transparent.c5ef49e5.png",
     "static/media/open.e9ce90e0.png": "/static/media/open.e9ce90e0.png",
     "static/media/tin.c28cbdb5.jpg": "/static/media/tin.c28cbdb5.jpg",
     "static/media/troopBanner.9a1dccfd.png": "/static/media/troopBanner.9a1dccfd.png",
@@ -32,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.55d2177c.js",
-    "static/js/2.fb6ee387.chunk.js",
-    "static/css/main.82c08bd9.chunk.css",
-    "static/js/main.d086ca51.chunk.js"
+    "static/js/2.b375d811.chunk.js",
+    "static/css/main.dab86248.chunk.css",
+    "static/js/main.eea7c327.chunk.js"
   ]
 }
