@@ -196,13 +196,12 @@ function App() {
                     <s.SpacerSmall />
                     <StyledButton
                       onClick={(e) => {
-                        // e.preventDefault()
-                        // dispatch(connect())
-                        // getData()
+                        e.preventDefault()
+                        dispatch(connect())
+                        getData()
                       }}
                     >
-                      Disabled until Oct 13th
-                      {/* CONNECT WALLET */}
+                      CONNECT WALLET
                     </StyledButton>
                     {blockchain.errorMsg !== '' ? (
                       <>
@@ -218,13 +217,12 @@ function App() {
                     <StyledButton
                       disabled={claimingNft ? 1 : 0}
                       onClick={(e) => {
-                        // e.preventDefault()
-                        // claimNFTs(1)
-                        // getData()
+                        e.preventDefault()
+                        claimNFTs(1)
+                        getData()
                       }}
                     >
-                       Disabled until Oct 13th
-                      {/* {claimingNft ? 'Busy...' : 'Buy 1 NFT'} */}
+                      {claimingNft ? 'Busy...' : 'Buy 1 NFT'}
                     </StyledButton>
                   </s.Container>
                 )}
