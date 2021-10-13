@@ -12,3 +12,11 @@
     width: 100%;
     max-width: 1200px;
 }
+
+.mui-select {
+    width: 100px;
+    margin: 10px 0;
+    padding-top: 6px;
+    background-color: white;
+    border-radius: 4px;
+}
