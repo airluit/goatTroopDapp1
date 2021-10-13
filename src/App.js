@@ -155,7 +155,7 @@ function App() {
                 </s.TextTitle>
                 <s.SpacerSmall />
                 <s.TextDescription style={{ textAlign: 'center' }}>
-                  You can still buy and trade TBC NFTs on{' '}
+                  You can still buy and trade Goat Troops NFTs on{' '}
                   <a
                     target={''}
                     href={'https://testnets.opensea.io/collection/trooptest'} //change this
