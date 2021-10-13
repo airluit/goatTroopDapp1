@@ -148,7 +148,7 @@ function App() {
             ai={'center'}
             style={{ backgroundColor: '#313639', padding: 12 }}
           >
-            {Number(data.totalSupply) == 10000 ? (
+            {Number(data.totalSupply) == 13000 ? (
               <>
                 <s.TextTitle style={{ textAlign: 'center' }}>
                   The sale has ended.
