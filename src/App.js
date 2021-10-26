@@ -9,7 +9,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import i1 from './assets/images/1.png'
-import banner from './assets/images/troopBanner.png'
+import banner from './assets/images/newimage.jpeg'
 import goat from './assets/images/goatTeaser.png'
 import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom'
 import './AppStyles.css'
@@ -89,11 +89,11 @@ function App() {
     blockchain.smartContract.methods
       .mint( _amount)
       .send({
-        //gasLimit: '200000',
+        //gasLimit: '285000',
         to: '0x3c1220Dc26f85F02D69A790AdE03E619F5C32582', //change this
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
-          (0.06 * _amount).toString(),
+          (0.03 * _amount).toString(),
           'ether',
         ),
       })
@@ -186,7 +186,7 @@ function App() {
                 <s.SpacerXSmall />
                 <s.SpacerLarge />
                 <s.TextTitle style={{ textAlign: 'center' }}>
-                  1 Troop NFT costs .06 ETH
+                  1 Troop NFT costs .03 ETH
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription style={{ textAlign: 'center' }}>
