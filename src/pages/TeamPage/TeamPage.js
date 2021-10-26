@@ -112,30 +112,6 @@ function TeamPage() {
         </div>
       </div>
 
-      <div className="gallery">
-        <a>
-          <img src={JoeGoat} className="goat-image" />
-        </a>
-        <div className="desc">
-          <h1>NFTjoe</h1>
-          <p>
-            Joined the military because
-            <br />
-            he heard there was free pizza.
-          </p>
-          <div className="bottom-socials">
-          <div className="social-container">
-            <img className="discord-icon" src={discordIcon} />
-            <div className="social-name">NFTjoe#6274</div>
-            <img className="discord-icon" src={twitterIcon} />
-            <div className="social-name"> <a href=" https://twitter.com/NFTjoe?s=20"> @NFTJoe</a></div>
-           
-
-          </div>
-          </div>
-        </div>
-      </div>
-
 
       <div className="gallery">
         <a>
