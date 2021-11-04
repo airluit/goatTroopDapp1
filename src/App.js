@@ -9,7 +9,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import i1 from './assets/images/1.png'
-import banner from './assets/images/newimage.jpeg'
+//import banner from './assets/images/newimage.jpeg'
 import goat from './assets/images/goatTeaser.png'
 import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom'
 import './AppStyles.css'
@@ -128,7 +128,7 @@ function App() {
           Welcome to Goat Troops Infantry…
         </div>
         <s.SpacerMedium />
-        <img className="banner-img" src={banner} />
+        <img className="banner-img" src={goat} />
         <s.Container jc={'center'} ai={'center'}>
           <s.TextTitle
             style={{
