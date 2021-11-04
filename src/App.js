@@ -9,11 +9,7 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import i1 from './assets/images/1.png'
-<<<<<<< HEAD
 import banner from './assets/images/newimage.jpeg'
-=======
-import banner from './assets/images/newBanner.jpeg'
->>>>>>> 79a1564873f9ab21605de747c77281ef006dda2f
 import goat from './assets/images/goatTeaser.png'
 import { BrowserRouter as Router, Link, useLocation } from 'react-router-dom'
 import './AppStyles.css'
